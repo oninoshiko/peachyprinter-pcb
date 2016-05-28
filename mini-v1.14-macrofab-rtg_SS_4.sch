@@ -1,5 +1,6 @@
 EESchema Schematic File Version 2
 LIBS:mini-v1.14-macrofab-rtg
+LIBS:mini-v1.14-macrofab-rtg-cache
 EELAYER 25 0
 EELAYER END
 $Descr A2 23386 16535

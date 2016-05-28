@@ -1,5 +1,6 @@
 EESchema Schematic File Version 2
 LIBS:mini-v1.14-macrofab-rtg
+LIBS:mini-v1.14-macrofab-rtg-cache
 EELAYER 25 0
 EELAYER END
 $Descr A2 23386 16535
@@ -1034,4 +1035,19 @@ Text GLabel 7650 6750 0    10   UnSpc ~ 0
 YCOARSE_IN
 Text GLabel 7650 6850 0    10   UnSpc ~ 0
 YFINE_IN
+NoConn ~ 7650 5050
+NoConn ~ 7650 4950
+NoConn ~ 7650 4850
+NoConn ~ 7650 6050
+NoConn ~ 7650 6650
+NoConn ~ 7650 6550
+NoConn ~ 9150 6450
+NoConn ~ 9150 6550
+NoConn ~ 9150 6650
+NoConn ~ 9150 4950
+NoConn ~ 9150 5050
+NoConn ~ 9150 5250
+NoConn ~ 9150 5350
+NoConn ~ 7450 9150
+NoConn ~ 7450 9250
 $EndSCHEMATC
