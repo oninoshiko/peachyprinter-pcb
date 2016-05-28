@@ -1,0 +1,55 @@
+#********** START OF renumber-sheet.ulp ULP Version 4.4.4 25-05-2016 :20:38:38 LOG **********#
+#OldRef				SheetNumber	NewRef
+3V				4	3V71
+GND				4	GND71
+LASER				3	LASER71
+NRST				4	NRST71
+SWCLK				4	SWCLK71
+SWDIO				4	SWDIO71
+VUSB				4	VUSB71
+#********** END OF renumber-sheet.ulp ULP Version 4.4.4 25-05-2016 :20:38:38 LOG **********#
+
+#********** START OF fix_via_hack.ulp ULP Version 4.6.0 25-05-2016 :20:39:57 LOG **********#
+PADFILL	PadCount=44		Net=GND				(X=6000.000000 Y=26000.000000)	LayerStart=16	LayerEnd=16
+PADFILL	PadCount=179		Net=GND				(X=27000.000000 Y=9000.000000)	LayerStart=16	LayerEnd=16
+#********** END OF fix_via_hack.ulp ULP Version 4.6.0 25-05-2016 :20:39:57 LOG **********#
+
+#********** START OF eagle6xx-sch-to-kicad-sch.ulp 1.8 25-05-2016 :20:42:01 LOG **********#
+Package Name Conflict: Package=C0402 from Internal SCH lib=MF_Passives  With Package=C0402 from LIB=rcl
+Package Name Conflict: Package=C0603 from Internal SCH lib=MF_Passives  With Package=C0603 from LIB=lmdparts
+Package Name Conflict: Package=C0603 from Internal SCH lib=MF_Passives  With Package=C0603 from LIB=rcl
+Package Name Conflict: Package=C0805 from Internal SCH lib=MF_Passives  With Package=C0805 from LIB=rcl
+Package Name Conflict: Package=C1206 from Internal SCH lib=MF_Passives  With Package=C1206 from LIB=rcl
+Package Name Conflict: Package=C1210 from Internal SCH lib=MF_Passives  With Package=C1210 from LIB=rcl
+Package Name Conflict: Package=C0603 from Internal SCH lib=lmdparts  With Package=C0603 from LIB=MF_Passives
+Package Name Conflict: Package=C0603 from Internal SCH lib=lmdparts  With Package=C0603 from LIB=rcl
+Package Name Conflict: Package=C0402 from Internal SCH lib=rcl  With Package=C0402 from LIB=MF_Passives
+Package Name Conflict: Package=C0603 from Internal SCH lib=rcl  With Package=C0603 from LIB=MF_Passives
+Package Name Conflict: Package=C0603 from Internal SCH lib=rcl  With Package=C0603 from LIB=lmdparts
+Package Name Conflict: Package=C0805 from Internal SCH lib=rcl  With Package=C0805 from LIB=MF_Passives
+Package Name Conflict: Package=C1206 from Internal SCH lib=rcl  With Package=C1206 from LIB=MF_Passives
+Package Name Conflict: Package=C1210 from Internal SCH lib=rcl  With Package=C1210 from LIB=MF_Passives
+Device Name Conflict: Device=GND from Internal SCH lib=supply1  With Device=GND from LIB=supply2
+Symbol Name Conflict: Symbol=GND from Internal SCH lib=supply1  With Symbol=GND from LIB=supply2
+Device Name Conflict: Device=GND from Internal SCH lib=supply2  With Device=GND from LIB=supply1
+Symbol Name Conflict: Symbol=GND from Internal SCH lib=supply2  With Symbol=GND from LIB=supply1
+#********** END OF eagle6xx-sch-to-kicad-sch.ulp 1.8 25-05-2016 :20:42:01 LOG **********#
+
+#********** START OF exp-lbrs.ulp 6.6 25-05-2016 :20:42:40 LOG **********#
+OK: Eagle lib export from SCH/PCB OK
+    Conversion completed with no Messages
+#********** END OF exp-lbrs.ulp 6.6 25-05-2016 :20:42:40 LOG **********#
+
+
+#********** START OF eagle-lbr2kicad-1.0.ulp 2.3 25-05-2016 :20:42:59 LOG **********#
+Missing Prefix Part =''				LMDPARTS_SOT23-5					mini-v1.14-macrofab-rtg		M
+Missing Prefix Part =''				LMDPARTS_SOT23-5					mini-v1.14-macrofab-rtg		M
+Missing Prefix Part =''				LMDPARTS_SOD123					mini-v1.14-macrofab-rtg		M
+Missing Prefix Part =''				LMDPARTS_SC70-6					mini-v1.14-macrofab-rtg		M
+Missing Prefix Part =LMC7101				LMDPARTS_SOT23-5					mini-v1.14-macrofab-rtg		M
+Missing Prefix Part =LMH6645MF				LMDPARTS_SOT23-5					mini-v1.14-macrofab-rtg		M
+Missing Prefix Part =''				LMDPARTS_SDR0403					mini-v1.14-macrofab-rtg		M
+Missing Prefix Part =''				LMDPARTS_SC70-6					mini-v1.14-macrofab-rtg		M
+Missing Prefix Part =''				LMDPARTS_LQFP48					mini-v1.14-macrofab-rtg		M
+#********** END OF eagle-lbr2kicad-1.0.ulp 2.3 25-05-2016 :20:42:59 LOG **********#
+

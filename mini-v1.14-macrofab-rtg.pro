@@ -1,25 +1,32 @@
-EAGLE AutoRouter Statistics:
-
-Job           : C:/Users/Owner/Dropbox/Eagle/Peachy Pro/mini-v1.14-macrofab-rtg.brd
-
-Start at      : 15:04:07 (10/07/2015)
-End at        : 15:16:56 (10/07/2015)
-Elapsed time  : 00:12:47
-
-Signals       :    68   RoutingGrid: 3 mil  Layers: 2
-Connections   :   214   predefined:  187 ( 80 Vias )
-
-Router memory :   1984400
-
-Passname          : TopRouter     Route Optimize1 Optimize2 Optimize3 Optimize4 Optimize5 Optimize6 Optimize7 Optimize8 Optimize9Optimize10Optimize11Optimize12
-
-Time per pass     :  00:11:49  00:00:05  00:00:04  00:00:04  00:00:05  00:00:04  00:00:05  00:00:04  00:00:05  00:00:04  00:00:05  00:00:04  00:00:05  00:00:04
-Number of Ripups  :         0         1         0         0         0         0         0         0         0         0         0         0         0         0
-max. Level        :         0         1         0         0         0         0         0         0         0         0         0         0         0         0
-max. Total        :         0         5         0         0         0         0         0         0         0         0         0         0         0         0
-
-Routed            :        19        27        27        27        27        27        27        27        27        27        27        27        27        27
-Vias              :         0         9         7         7         7         7         7         7         7         7         7         7         7         7
-Resolution        :    96.3 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
-
-Final             : 100.0% finished
+update=Mon 16 Feb 2015 06:37:24 AM PST
+version=1
+last_client=kicad
+[pcbnew]
+version=1
+LastNetListRead=mini-v1.14-macrofab-rtg.net
+UseCmpFile=1
+PadDrill=0.600000000000
+PadDrillOvalY=0.600000000000
+PadSizeH=1.500000000000
+PadSizeV=1.500000000000
+PcbTextSizeV=1.500000000000
+PcbTextSizeH=1.500000000000
+PcbTextThickness=0.300000000000
+ModuleTextSizeV=1.000000000000
+ModuleTextSizeH=1.000000000000
+ModuleTextSizeThickness=0.150000000000
+SolderMaskClearance=0.000000000000
+SolderMaskMinWidth=0.000000000000
+DrawSegmentWidth=0.200000000000
+BoardOutlineThickness=0.100000000000
+ModuleOutlineThickness=0.150000000000
+[cvpcb]
+version=1
+NetIExt=net
+[general]
+version=1
+[eeschema]
+version=1
+LibDir=
+[eeschema/libraries]
+LibName1=mini-v1.14-macrofab-rtg
